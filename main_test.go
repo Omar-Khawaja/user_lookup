@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestPopulate(t *testing.T) {
+func TestPopulateNoEmptyStrings(t *testing.T) {
 	Populate()
 	for _, v := range users {
 		if v == "" {
