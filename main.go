@@ -9,7 +9,7 @@ import (
 
 var users []string
 
-func Populate() {
+func PopulateUsers() {
 	users = append(users, "root", "omar.khawaja")
 }
 
@@ -28,6 +28,6 @@ func Lookup(users []string) {
 }
 
 func main() {
-	Populate()
+	PopulateUsers()
 	Lookup(users)
 }
