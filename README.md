@@ -1,6 +1,6 @@
 A simple Go program that will return the users you specify in the "users"
 slice with the Uid, Gid, Username, Name, and Homedir (fields of the User
-struct in the os/user package) in JSON format.
+struct in the os/user package) in JSON format. A basic unit test is included.
 
 example:
 
